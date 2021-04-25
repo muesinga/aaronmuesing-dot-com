@@ -1,7 +1,7 @@
 function Landing() {
     return (
-        <div>
-        Aaron Muesing
+        <div class="content">
+        Landing
         </div>
     )
 }

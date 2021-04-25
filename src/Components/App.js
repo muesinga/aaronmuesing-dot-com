@@ -1,6 +1,6 @@
-import Header from './Header/Sidebar'
+import NavBar from './NavBar/NavBar'
 import About from './About/About'
-import Landing from './Home/Landing'
+import Landing from './Landing/Landing'
 import Catalog from './Music/Catalog'
 import Resume from './Resume/Resume'
 import Projects from './Projects/Projects'
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <section className="App-header">
-        <Header />
+        <NavBar />
       </section>
       <Switch>
           <Route exact path="/">

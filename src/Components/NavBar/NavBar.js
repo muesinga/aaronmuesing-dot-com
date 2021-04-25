@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
 
-function Sidebar() {
+function NavBar() {
     return (
-        <header className="header">
+        <header className="sidebar">
             <NavLink className="logo" to="/">
-                home
+                Landing
             </NavLink>
             <NavLink className="button" to="/about">
                 About
@@ -25,4 +25,4 @@ function Sidebar() {
     )
 }
 
-export default Sidebar
+export default NavBar

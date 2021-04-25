@@ -1,7 +1,7 @@
 function Contact()  {
     return (
-        <div>
-            hi
+        <div class="content">
+            contact@aaronmuesing.com
         </div>
     )
 }

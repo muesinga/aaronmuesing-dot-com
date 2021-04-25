@@ -1,7 +1,7 @@
 function Catalog() {
     return (
-        <div>
-            hi
+        <div class="content">
+            Catalog
         </div>
     )
 }
