@@ -12,10 +12,10 @@ function NavBar() {
             <NavLink className="button" to="/catalog">
                 Catalog
             </NavLink>
-            <NavLink className="button" to="/support">
+            <NavLink className="button" to="/projects">
                 Projects
             </NavLink>
-            <NavLink className="button" to="/about">
+            <NavLink className="button" to="/resume">
                 Resume
             </NavLink>
             <NavLink className="button" to="/contact">

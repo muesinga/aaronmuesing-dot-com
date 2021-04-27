@@ -1,6 +1,6 @@
 function Resume() {
     return (
-        <div>
+        <div class="content">
             hi
         </div>
     )

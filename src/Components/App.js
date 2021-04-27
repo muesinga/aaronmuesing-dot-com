@@ -1,7 +1,7 @@
 import NavBar from './NavBar/NavBar'
 import About from './About/About'
 import Landing from './Landing/Landing'
-import Catalog from './Music/Catalog'
+import MusicContainer from './Music/MusicContainer'
 import Resume from './Resume/Resume'
 import Projects from './Projects/Projects'
 import Contact from './Contact/Contact'
@@ -22,7 +22,7 @@ function App() {
             <About />
           </Route>
           <Route exact path="/catalog">
-            <Catalog />
+            <MusicContainer />
           </Route>
           <Route exact path="/projects">
             <Projects />
