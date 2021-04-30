@@ -2,26 +2,26 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     return (
-        <header className="sidebar">
+        <div className="sidebar">
             <NavLink className="logo" to="/">
                 Landing
             </NavLink>
-            <NavLink className="button" to="/about">
+            <NavLink to="/about">
                 About
             </NavLink>
-            <NavLink className="button" to="/catalog">
+            <NavLink to="/catalog">
                 Catalog
             </NavLink>
-            <NavLink className="button" to="/projects">
+            <NavLink to="/projects">
                 Projects
             </NavLink>
-            <NavLink className="button" to="/resume">
+            <NavLink to="/resume">
                 Resume
             </NavLink>
-            <NavLink className="button" to="/contact">
+            <NavLink to="/contact">
                 Contact
             </NavLink>
-        </header>
+        </div>
     )
 }
 

@@ -1,10 +1,12 @@
 import NavBar from './NavBar/NavBar'
 import About from './About/About'
 import Landing from './Landing/Landing'
-import MusicContainer from './Music/MusicContainer'
+import MusicContainer from './Catalog/MusicContainer'
 import Resume from './Resume/Resume'
 import Projects from './Projects/Projects'
 import Contact from './Contact/Contact'
+
+import music from './Data/music-data'
 
 import { Switch, Route, Redirect } from "react-router-dom"
 
@@ -22,7 +24,7 @@ function App() {
             <About />
           </Route>
           <Route exact path="/catalog">
-            <MusicContainer />
+            <MusicContainer music={music} />
           </Route>
           <Route exact path="/projects">
             <Projects />
