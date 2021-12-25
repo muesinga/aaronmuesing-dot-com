@@ -1,4 +1,4 @@
-function Piece({ title }) {
+function MusicCard({ title }) {
     return (
         <button>
             {title}
@@ -6,4 +6,4 @@ function Piece({ title }) {
     )
 }
 
-export default Piece
+export default MusicCard

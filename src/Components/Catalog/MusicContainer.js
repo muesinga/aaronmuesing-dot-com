@@ -1,9 +1,9 @@
-import Piece from './Piece'
+import MusicCard from './MusicCard'
 
 function MusicContainer({ music }) {
 
-    const piece = music.map((piece) => 
-    <Piece key={piece.id} piece={piece} title={piece.title} />);
+    const piece = music.map((musicObj) => 
+    <MusicCard key={music.id} musicObj={music} title={musicObj.title} />);
 
     return (
         <div class="content">
